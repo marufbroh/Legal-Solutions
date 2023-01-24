@@ -36,3 +36,8 @@
     background-repeat: no-repeat;
     color: white;
 }
+
+.btn{
+    color: white !important;
+    background-color: #B68C5A !important;
+}
