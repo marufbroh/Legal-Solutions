@@ -46,10 +46,34 @@
                             <a class="nav-link">Contact Us</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-success btn-lg">Free Consultation</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Free Consultation</button>
                 </div>
             </div>
         </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Who Is A Full Stack Web Developer?</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        A Full Stack Web Developer is someone who has a good understanding of how the web works at each
+                        and every level, including setting up and configuring Linux or windows servers, coding
+                        server-side APIs, running the client-side of the application by using JavaScript, operating and
+                        querying databases and structuring and designing the web page with CSS, HTML and JavaScript.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Banner Section -->
 
@@ -253,77 +277,72 @@
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    WHAT IS THE DIFFERENCE BETWEEN FLEX-BOX AND GRID?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-semibold">
+                                    Flexbox is designed for one-dimensional layouts, and Grid for two-dimensional
+                                    layouts..Grid utilizes a two-dimensional system that allows placing items in rows
+                                    and columns, making it easier to create complex layouts. On the other hand, Flexbox
+                                    is a one-dimensional system that works with elements placed in a linear order.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    WHAT IS THE PURPOSE OF MEDIA QUERY?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-semibold">
+                                    Media Quary used for responsive design of any model of Mobile ,Tablet and Personal
+                                    Computer. It allow you to create different layouts depending on the size of the
+                                    viewport so that every user feel comfortable on their devices.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    WHAT IS THE BOX MODEL AND HOW DOES IT WORK?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-semibold">
+                                    The CSS box model is a container that contains multiple properties including
+                                    borders, margin, padding, and the content itself. It is used to create the design
+                                    and layout of web pages. It can be used as a toolkit for customizing the layout of
+                                    different elements. The web browser renders every element as a rectangular box
+                                    according to the CSS box model. Box-Model has multiple properties in CSS.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Accordion Item #4
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    WHAT IS SEMANTIC TAG?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-semibold">
+                                    Semantic tags clearly define the purpose of the HTML element. It also describes the
+                                    type of content that the element should contain. For example, "header" "footer"
+                                    "article"" are considered semantic elements as they clearly describe their purpose
+                                    and the type of content they should enclose.
                                 </div>
                             </div>
                         </div>
@@ -433,9 +452,11 @@
                     <h4 class="mb-3">Subscribe</h4>
                     <p>Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
                     <div class="input-group">
-                        <input type="email" class="form-control" placeholder="Email Address" aria-label="" aria-describedby="">
-                        <button class="btn btn-light p-0" type="submit" id=""><img class="img-fluid" src="images/send-email.png" alt=""></button>
-                      </div>
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label=""
+                            aria-describedby="">
+                        <button class="btn btn-light p-0" type="submit" id=""><img class="img-fluid"
+                                src="images/send-email.png" alt=""></button>
+                    </div>
                 </div>
             </div>
         </section>
